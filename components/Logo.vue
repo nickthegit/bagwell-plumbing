@@ -1,5 +1,5 @@
 <template>
-  <img src="/bagwell’s-plumbing-services-logo.png" alt />
+  <img src="/bagwells-plumbing-services-logo.png" alt />
 </template>
 
 <style>
