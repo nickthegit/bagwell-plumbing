@@ -65,10 +65,11 @@
   svg,
   img {
     width: 300px;
-    padding: 20px;
+    // padding: 20px;
+    margin-bottom: 20px;
     height: auto;
     @include breakpoint(mobile) {
-      width: 250px;
+      width: 220px;
     }
   }
   h1 {
