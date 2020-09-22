@@ -5,3 +5,15 @@
 //     font-weight: normal;
 //     font-style: normal;
 // }
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Russo One', sans-serif;
+  }
