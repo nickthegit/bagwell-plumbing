@@ -25,14 +25,6 @@
       </div>
       <h2>Website coming soon!</h2>
     </section>
-    <!-- <section class="hero">
-      <div class="hero__copy">
-        <h1>Sprung a leak? I'll take a peak</h1>
-      </div>
-      <div class="hero__img">
-        <img src="https://via.placeholder.com/1450x550" alt />
-      </div>
-    </section>-->
   </main>
 </template>
 
@@ -74,22 +66,21 @@
   img {
     width: 300px;
     padding: 20px;
-    flex-grow: 2;
     @include breakpoint(mobile) {
-      width: 260px;
+      width: 250px;
     }
   }
   h1 {
     font-size: 36px;
     @include breakpoint(mobile) {
-      font-size: 28px;
+      font-size: 26px;
     }
   }
   h2 {
     font-size: 28px;
     padding-top: 20px;
     @include breakpoint(mobile) {
-      font-size: 22px;
+      font-size: 20px;
     }
   }
   p {
@@ -106,6 +97,9 @@
       font-size: 20px;
       padding: 5px;
       color: $white;
+      @include breakpoint(mobile) {
+        font-size: 18px;
+      }
     }
   }
   .backdrop {

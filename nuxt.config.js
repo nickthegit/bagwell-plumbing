@@ -16,13 +16,13 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Bagwell Plumbing Services',
     meta: [
       ...createSEOMeta({
-        title: 'insert title here',
+        title: 'Bagwell Plumbing Services',
         description:
-          'insert description here',
-        image: '[Insert_NarutoDose_Image_URL]',
+          'Covering the Sherborne, Yeovil and surrounding areas, Bagwell Plumbing provide all plumbing and heating services',
+        image: `${process.env.HOST_NAME}/bagwell’s-plumbing-services-logo.png`,
         url: process.env.HOST_NAME,
       }),
     ],
