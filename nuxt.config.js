@@ -22,7 +22,7 @@ export default {
         title: 'Bagwell Plumbing Services',
         description:
           'Covering the Sherborne, Yeovil and surrounding areas, Bagwell Plumbing provide all plumbing and heating services',
-        image: `${process.env.HOST_NAME}/bagwell’s-plumbing-services-logo.png`,
+        image: `${process.env.HOST_NAME}/bagwells-plumbing-services-logo.png`,
         url: process.env.HOST_NAME,
       }),
     ],
